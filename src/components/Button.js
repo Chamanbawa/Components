@@ -1,7 +1,8 @@
 
 function Button(props) {
   return (
-    <button>{props.value}</button>
+    <button className={props.class}>{props.value}</button>
+
   )
 }
 

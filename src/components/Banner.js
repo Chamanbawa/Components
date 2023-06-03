@@ -7,8 +7,10 @@ function Banner(props) {
         <p>{props.p1}</p>
         <p>{props.p2}</p>
         <p>{props.p3}</p>
-        <Button value="Primary" />
-        <Button value="Secondary" />
+        <div className="all-btns">
+        <Button value="Secondary" class="secondary-btn" />
+        <Button value="Primary" class="primary-btn" />
+        </div>
       </div>
     </div>
   );

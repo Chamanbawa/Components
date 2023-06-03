@@ -11,7 +11,7 @@ function Header(props) {
           </div>
           <nav>
             <ul>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Orders</a></li>
               <li><a href="#">Places</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">My Account</a></li>
