@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./style/index.css";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header title="Tickets" />
+      <main>
+        <Banner
+          heading="Be Creative"
+          p1="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          p2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+          p3="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable."
+        />
+      </main>
+    </>
   );
 }
 
